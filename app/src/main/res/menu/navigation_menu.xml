@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/user"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/patients"
+        android:icon="@drawable/patient"
+        android:title="@string/patients" />
+
+    <item
+        android:id="@+id/procedures"
+        android:icon="@drawable/procedure"
+        android:title="@string/procedure" />
+
+    <item
+        android:id="@+id/orders"
+        android:icon="@drawable/orders"
+        android:title="@string/orders" />
+
+    <item android:title="@string/others">
+
+        <menu>
+
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/info"
+                android:title="@string/about" />
+
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/settings"
+                android:title="@string/settings" />
+
+        </menu>
+
+    </item>
+
+</menu>
