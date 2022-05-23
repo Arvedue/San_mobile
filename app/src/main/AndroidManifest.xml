@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.San_mobile">
         <activity
-            android:name=".MainActivity"
+            android:name=".PatientActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

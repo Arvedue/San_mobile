@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">San_mobile</string>
     <string name="profile">Profile</string>
-    <string name="patients">Patients list</string>
+    <string name="bookedRoom">Your room</string>
     <string name="procedure">Procedures list</string>
     <string name="settings">Settings</string>
-    <string name="orders">Your procedures</string>
+    <string name="boughtProcedures">Your procedures</string>
     <string name="others">Others</string>
     <string name="about">About us</string>
     <string name="user">Chandaev Bekzhan</string>
-    <string name="admin">Admin</string>
+    <string name="orderRoom">Order room</string>
     <string name="patient">Patient</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

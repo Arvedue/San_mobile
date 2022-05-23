@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_navigation"
+    app:startDestination="@id/info">
+
+    <fragment
+        android:id="@+id/info"
+        android:name="com.example.san_mobile.ui.info.InfoFragment"
+        android:label="Info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/boughtProcedures"
+        android:name="com.example.san_mobile.ui.boughtProcedures.BoughtProceduresFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_bought_procedures" />
+    <fragment
+        android:id="@+id/bookedRoom"
+        android:name="com.example.san_mobile.ui.bookedRoom.BookedRoomFragment"
+        android:label="fragment_booked_room"
+        tools:layout="@layout/fragment_booked_room" />
+    <fragment
+        android:id="@+id/procedures"
+        android:name="com.example.san_mobile.ui.procedures.ProceduresFragment"
+        android:label="fragment_procedures"
+        tools:layout="@layout/fragment_procedures" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.san_mobile.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/orderRoom"
+        android:name="com.example.san_mobile.ui.roomOrder.RoomOrderFragment"
+        android:label="fragment_room_order"
+        tools:layout="@layout/fragment_room_order" />
+</navigation>

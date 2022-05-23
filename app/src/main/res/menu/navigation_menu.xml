@@ -2,14 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/menuProfile"
+        android:id="@+id/profile"
         android:icon="@drawable/user"
         android:title="@string/profile" />
 
     <item
-        android:id="@+id/patients"
-        android:icon="@drawable/patient"
-        android:title="@string/patients" />
+        android:id="@+id/bookedRoom"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/bookedRoom" />
+
+    <item
+        android:id="@+id/orderRoom"
+        android:icon="@drawable/orders"
+        android:title="@string/orderRoom" />
 
     <item
         android:id="@+id/procedures"
@@ -17,9 +22,9 @@
         android:title="@string/procedure" />
 
     <item
-        android:id="@+id/orders"
+        android:id="@+id/boughtProcedures"
         android:icon="@drawable/orders"
-        android:title="@string/orders" />
+        android:title="@string/boughtProcedures" />
 
     <item android:title="@string/others">
 

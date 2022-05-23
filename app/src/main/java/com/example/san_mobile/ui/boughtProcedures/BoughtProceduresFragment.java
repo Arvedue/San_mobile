@@ -1,4 +1,4 @@
-package com.example.san_mobile.ui.orders;
+package com.example.san_mobile.ui.boughtProcedures;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.san_mobile.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link OrdersFragment#newInstance} factory method to
+ * Use the {@link BoughtProceduresFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class OrdersFragment extends Fragment {
+public class BoughtProceduresFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class OrdersFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public OrdersFragment() {
+    public BoughtProceduresFragment() {
         // Required empty public constructor
     }
 
@@ -39,8 +39,8 @@ public class OrdersFragment extends Fragment {
      * @return A new instance of fragment OrdersFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static OrdersFragment newInstance(String param1, String param2) {
-        OrdersFragment fragment = new OrdersFragment();
+    public static BoughtProceduresFragment newInstance(String param1, String param2) {
+        BoughtProceduresFragment fragment = new BoughtProceduresFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class OrdersFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_orders, container, false);
+        return inflater.inflate(R.layout.fragment_bought_procedures, container, false);
     }
 }
